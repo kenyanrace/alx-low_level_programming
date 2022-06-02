@@ -1,5 +1,8 @@
 #include <stdio.h>
-/*Always return 0*/
+/**
+ * main - main block
+ * Always return 0
+ */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
