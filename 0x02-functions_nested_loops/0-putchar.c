@@ -5,12 +5,12 @@
  */
 int main(void)
 {
-	char *sh = "putchar";
+	char c[8] = {95, 112, 117, 116, 99, 104, 97, 114};
+	int count;
 
-	while (*sh)
+	for (count = 0; count < 8; count++)
 	{
-		_putchar(*sh);
-		sh++;
+		_putchar(c[count]);
 	}
 	_putchar('\n');
 	return (0);
