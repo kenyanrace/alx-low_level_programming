@@ -6,14 +6,13 @@
  */
 int main(void)
 {
-	int i, l;
+	int i;
 	long n1, n2, next;
 
 	n1 = 1;
 	n2 = 2;
-	l = 50;
 
-	for (i = 0; i < 1; i++)
+	for (i = 0; i <= 50; i++)
 	{
 		if (i == 49)
 		{
