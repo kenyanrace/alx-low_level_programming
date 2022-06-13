@@ -11,9 +11,9 @@ void puts2(char *str)
 
 	while (str[count] != '\0')
 	{
-		count++
+		count++;
 	}
-	for (i = 0; i < coumt; i = i + 2)
+	for (i = 0; i < count; i = i + 2)
 	{
 		_putchar(str[i]);
 	}
