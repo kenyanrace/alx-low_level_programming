@@ -4,7 +4,7 @@
  * @s: sn array
  * Return: char
  */
-char *string_toupper(char *)
+char *string_toupper(char *s)
 {
 	int i = 0;
 
@@ -14,7 +14,7 @@ char *string_toupper(char *)
 		{
 			s[i] = s[i] - 32;
 		}
-		i++;
+	i++;
 	}
 	return (s);
 }
