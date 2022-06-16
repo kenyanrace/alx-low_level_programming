@@ -4,7 +4,7 @@
  * @str: string
  * Return: char
  */
-char *leet(char *str)
+char *leet(char *)
 {
 	int i = 0, k;
 	char s[] = "aAeEotTLl";
