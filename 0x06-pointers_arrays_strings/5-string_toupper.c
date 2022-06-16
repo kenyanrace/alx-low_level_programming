@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * strinp_toupper - function
+ * string_toupper - function
  * @s: sn array
  * Return: char
  */
