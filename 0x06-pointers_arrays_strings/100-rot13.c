@@ -19,7 +19,7 @@ char *rot13(char *str)
 		{
 			if (str[i] == alpha[j])
 			{
-				srt[i] = rot[j];
+				str[i] = rot[j];
 				break;
 			}
 			j++;
