@@ -10,8 +10,8 @@ char *rot13(char *str)
 
 	char alpha[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char rot[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
-	i = 0;
 	
+	i = 0;
 	while (str[i] != '\0')
 	{
 		j = 0;
