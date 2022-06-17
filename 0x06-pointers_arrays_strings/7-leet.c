@@ -4,7 +4,7 @@
  * @str: string
  * Return: char
  */
-char *leet(char *s)
+char *leet(char *str)
 {
 	int i = 0, k;
 	char s[] = "aAeEotTLl";
@@ -14,7 +14,10 @@ char *leet(char *s)
 	{
 		for (k = 0; k <= 9; k++)
 		{
-			str[i] = S[k];
+			if (s[k] == str[i])
+			{
+				str[i] = S[k];
+			}
 		}
 	}
 	return (str);
