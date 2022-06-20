@@ -5,7 +5,7 @@
  * @accept: buffer2
  * Return: int
  */
-unsigned int (char *s, char *accept)
+unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int j, i;
 
