@@ -2,6 +2,7 @@
 /**
  * _strpbrk - prints buffer
  * @s: buffer@accept: buffer2
+ * @accept: kmfmc
  * Return: char
  */
 char *_strpbrk(char *s, char *accept)

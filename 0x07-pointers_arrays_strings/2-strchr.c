@@ -1,7 +1,6 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *
  *_strchr - prints buffer
  *@s: buffer1
  *@c: buffer2

@@ -9,7 +9,7 @@ unsigned int (char *s, char *accept)
 {
 	unsigned int j, i;
 
-	fot (j = 0; s[j] != '\0'; j++)
+	for (j = 0; s[j] != '\0'; j++)
 	{
 		for (i = 0; accept[i] != '\0'; i++)
 		{
