@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_diagsumms - cake
+ * print_diagsums - prints buffer
  * @a: foood
  * @size: drinks
  * Return: void

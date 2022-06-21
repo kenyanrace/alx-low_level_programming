@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _strspn - prints buffer
- * @S: buffer
+ * @s: buffer
  * @accept: buffer2
  * Return: int
  */

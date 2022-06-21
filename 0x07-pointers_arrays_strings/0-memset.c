@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _memset - prints buffer
- * @S: buffer
+ * @s: buffer
  * @b: write
  * @n: size
  * Return: char
