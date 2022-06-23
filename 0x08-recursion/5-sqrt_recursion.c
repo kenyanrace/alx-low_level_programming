@@ -19,7 +19,7 @@ int sqrt_a(int a, int b)
 }
 
 /**
- * _sqrt_recurcion - recursive
+ * _sqrt_recursion - recursive
  * @n: number
  * Return: always 0
  */
