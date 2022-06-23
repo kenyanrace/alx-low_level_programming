@@ -8,7 +8,7 @@ int long_1(char *s)
 {
 	if (*s != '\0')
 	{
-		return (1 + long_1(s +1));
+		return (1 + long_1(s + 1));
 	}
 	return (0);
 }
@@ -21,7 +21,7 @@ int long_1(char *s)
  */
 int compare(char *s, int l)
 {
-	if ( l <= 0)
+	if (l <= 0)
 	{
 		return (1);
 	}
@@ -36,7 +36,7 @@ int compare(char *s, int l)
 }
 
 /**
- * is_palindrome - char 
+ * is_palindrome - char
  * @s: character
  * Return: always 0
  */
