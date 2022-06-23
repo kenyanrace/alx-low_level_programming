@@ -4,7 +4,7 @@
  * @s: character
  * Return: void
  */
-void _puts_recursive(char *s)
+void _puts_recursion(char *s)
 {
 	if (*(s) != '\0')
 	{

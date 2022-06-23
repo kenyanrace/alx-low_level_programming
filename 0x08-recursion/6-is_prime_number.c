@@ -11,7 +11,7 @@ int prime_a(int a, int b)
 	{
 		return (0);
 	}
-	else if (a==b)
+	else if (a == b)
 	{
 		return (1);
 	}

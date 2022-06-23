@@ -15,8 +15,9 @@ int sqrt_a(int a, int b)
 	{
 		return (-1);
 	}
-	return (sgrt_a(a. b + 1));
+	return (sqrt_a(a, b + 1));
 }
+
 /**
  * _sqrt_recurcion - recursive
  * @n: number
