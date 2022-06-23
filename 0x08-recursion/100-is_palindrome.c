@@ -6,7 +6,7 @@
  */
 int long_1(char *s)
 {
-	of (*s != '\0')
+	if (*s != '\0')
 	{
 		return (1 + long_1(s +1));
 	}
