@@ -14,9 +14,9 @@ int main(int argc, char *argv[])
 
 	if (argc == 3)
 	{
-		mul *= atoi(argv[argc -2]);
+		mul *= atoi(argv[argc - 2]);
 		mul *= atoi(argv[argc - 1]);
-		printf("%d\m, mul");
+		printf("%d\n", mul);
 	}
 	else
 		printf("error\n");
