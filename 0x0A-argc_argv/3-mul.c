@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <ctype.h>
 /**
- * main- main block
+ * main - main block
  * @argc: argumets
  * @argv: array
  * Return: integer
