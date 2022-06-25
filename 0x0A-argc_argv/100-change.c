@@ -5,7 +5,7 @@
 /**
  * main - main block
  * @argc: khggv
- * #argv: array
+ * @argv: array
  * Return: always 0
  */
 int main(int argc, char *argv[])
