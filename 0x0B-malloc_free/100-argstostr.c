@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * argstostr - function
+ *argstostr - function
  *@ac: sgfrwtq
  *@av: wjdhuewh
  *Return: pointer
@@ -12,9 +12,9 @@ char *argstostr(int ac, char **av)
 	int i = 0, j, longitud = 0, l, k;
 	char *string;
 
-	if (ac == 0 || av == '\0')
+	if (ac == 0 || av == NULL)
 		return (NULL);
-	for (i = 0, i < ac; i++)
+	for (i = 0; i < ac; i++)
 	{
 		j = 0;
 		while (av[i][j] != '\0')
@@ -38,7 +38,7 @@ char *argstostr(int ac, char **av)
 			longitud++;
 		}
 		*(string + longitud) = '\n';
-		longitud++
+		longitud++;
 	}
 	return (string);
 }

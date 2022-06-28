@@ -31,7 +31,7 @@ char *str_concat(char *s1, char *s2)
 	}
 	for (k = 0; k < i; k++)
 	{
-		(*concat + k) = *(s1 + k);
+		*(concat + k) = *(s1 + k);
 	}
 	for (k = 0, l = i; k < j; l++, k++)
 	{
