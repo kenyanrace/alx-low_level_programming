@@ -32,7 +32,7 @@ char *argstostr(int ac, char **av)
 	longitud = 0;
 	for (k = 0; k < ac; k++)
 	{
-		for (l = 0; av [k][l] != '\0'; l++)
+		for (l = 0; av[k][l] != '\0'; l++)
 		{
 			*(string + longitud) = av[k][l];
 			longitud++;
