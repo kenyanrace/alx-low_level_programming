@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * countword - hygerhjkcm
+ * count_word - hygerhjkcm
  * @s: string to be checjed
  * Return: number of words
  */
@@ -54,9 +54,9 @@ char **strtow(char *str)
 				if (tmp == NULL)
 					return (NULL);
 				while (start < end)
-					*tmp++ =str[start++];
+					*tmp++ = str[start++];
 				*tmp = '\0';
-				matrix[k] =tmp - c;
+				matrix[k] = tmp - c;
 				k++;
 				c = 0;
 			}
