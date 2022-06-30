@@ -18,6 +18,7 @@ int _strlen(char *s)
 /**
  * string_nconcat - fufrgdhjk
  * @s1: ouiyghjk
+ * @n: jhygb
  * @s2: hgjj
  * Return: char
  */
@@ -28,16 +29,12 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	if (s1 == NULL)
 		s1 = "";
-	while (s1[l])
-		l++;
 	if (s2 == NULL)
 		s2 = "";
-	while (s2[t])
-		t++;
-	t = _strlen(s1);
-	l = _strlen(s2);
-	if (n < l)
-		l = n;
+	l = _strlen(s1);
+	t = _strlen(s2);
+	if (n < t)
+		t = n;
 	str = malloc(t + l + 1);
 	if (str == NULL)
 	{
