@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * array_range - function 
+ * array_range - function
  * @min: ygtfjkiuh
  * @max: jhgbjh
  * Return: integre
