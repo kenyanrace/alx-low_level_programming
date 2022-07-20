@@ -6,7 +6,7 @@
  * @head: ponter
  * Return: void
  */
-int pop_listint(listint_t *head)
+int pop_listint(listint_t **head)
 {
 	int value = 0;
 	listint_t *next_node = NULL;
@@ -17,7 +17,7 @@ int pop_listint(listint_t *head)
 	}
 	next_node = (*head)->next;
 	value = (*head)->n;
-	free(head);
+	free(*head);
 	*head = next_node;
 	return (value);
 }
